@@ -3,95 +3,153 @@
 <head>
   <meta charset="utf-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1" />
-  <title>Poise & Balance Podcast | Lili B & VStar</title>
-  <meta name="description" content="Poise & Balance podcast hosted by Lili B and VStar. Real conversations, real growth, real balance." />
-  <link rel="preconnect" href="https://fonts.googleapis.com">
-  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Great+Vibes&family=Montserrat:wght@400;600;800;900&family=Playfair+Display:wght@700;900&display=swap" rel="stylesheet">
+  <meta name="theme-color" content="#11100e" />
+  <title>Poise &amp; Balance | V-Star &amp; Lili B</title>
+  <meta name="description" content="Poise & Balance with V-Star and Lili B — real conversations, real growth, and real balance." />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,400;0,500;0,600;1,400;1,500&amp;family=DM+Sans:wght@300;400;500;600&amp;display=swap" rel="stylesheet" />
   <link rel="stylesheet" href="styles.css" />
 </head>
 <body>
-  <div class="sparkles" aria-hidden="true"></div>
-  <header class="nav">
-    <a class="brand" href="#top"><img src="assets/logo.jpeg" alt="Poise & Balance logo"><span>Poise & Balance</span></a>
-    <button class="menu" aria-label="Open navigation">☰</button>
-    <nav>
-      <a href="#about">About</a><a href="#episodes">Episodes</a><a href="#support">Support</a><a href="#booking">Booking</a><a href="#contact">Contact</a>
+  <div class="grain" aria-hidden="true"></div>
+
+  <header class="site-header">
+    <a class="wordmark" href="#top" aria-label="Poise and Balance home">
+      <span>Poise</span><i>&amp;</i><span>Balance</span>
+    </a>
+    <button class="menu-toggle" type="button" aria-expanded="false" aria-controls="primary-navigation">
+      <span class="sr-only">Toggle navigation</span>
+      <span></span><span></span>
+    </button>
+    <nav id="primary-navigation" aria-label="Primary navigation">
+      <a href="#about">About</a>
+      <a href="#conversations">The Show</a>
+      <a href="#support">Support</a>
+      <a href="https://instagram.com/poiseandbalance_" target="_blank" rel="noreferrer">Instagram ↗</a>
     </nav>
   </header>
 
   <main id="top">
-    <section class="hero">
-      <div class="hero-card glass">
-        <div class="hero-image-wrap"><img src="assets/logo.jpeg" alt="Poise and Balance podcast artwork"></div>
-        <div class="hero-copy">
-          <p class="eyebrow">The official podcast</p>
-          <h1><span class="script">Lili B</span> <span class="chrome">&</span> <span class="script">VStar</span> ✨✨</h1>
-          <h2>Poised. Powerful. Purposeful.</h2>
-          <p class="lead">A glam-meets-studio podcast brand built on real conversations, real growth, and real balance.</p>
-          <div class="buttons">
-            <a class="btn primary" href="#support">Support the Podcast</a>
-            <a class="btn" href="#episodes">Watch Episodes</a>
-            <a class="btn ghost" href="mailto:poisedandbalance@gmail.com">Book Us</a>
-          </div>
+    <section class="hero" aria-labelledby="hero-title">
+      <h1 id="hero-title" class="sr-only">Poise and Balance Podcast with V-Star and Lili B</h1>
+      <div class="hero-banner reveal">
+        <img src="assets/poise-balance-hosts.png" alt="Poise and Balance hosts Lili B and V-Star seated in ivory chairs beside gold microphones" />
+      </div>
+      <div class="hero-rail">
+        <div class="hero-identity reveal delay-1">
+          <span>Hosted by</span>
+          <strong>Lili B</strong>
+          <i>&amp;</i>
+          <strong>V-Star</strong>
+        </div>
+        <p class="hero-intro reveal delay-2">Unfiltered perspective on life, relationships, healing, purpose, and the work of becoming.</p>
+        <div class="hero-actions reveal delay-3">
+          <a class="button button-gold" href="https://youtu.be/hvdfW7LkGdc?si=-BOFdqbwnbNL7wwb" target="_blank" rel="noreferrer">
+            <span class="play-icon" aria-hidden="true">▶</span>
+            Watch on YouTube
+          </a>
+          <a class="text-link" href="https://instagram.com/poiseandbalance_" target="_blank" rel="noreferrer">Follow on Instagram ↗</a>
         </div>
       </div>
-      <div class="ticker"><span>CONNECT • INSPIRE • ELEVATE • HEALING • MINDSET • RELATIONSHIPS • LEVELING UP • </span></div>
     </section>
 
-    <section id="about" class="section split">
-      <div class="glass text-card">
-        <p class="eyebrow">About the show</p>
-        <h3>Where confidence meets conversation.</h3>
-        <p>Poise & Balance brings a feminine luxury vibe with a modern podcast studio feel: black velvet, hot pink neon, chrome shine, glitter accents, and strong empowering energy.</p>
-        <p>Hosted by <b>Lili B ✨</b> and <b>VStar ✨</b>, the show focuses on life, mindset, relationships, healing, community, and leveling up.</p>
+    <div class="editorial-rule" aria-hidden="true">
+      <span>Real conversations</span><i></i><span>Real growth</span><i></i><span>Real balance</span>
+    </div>
+
+    <section class="featured-video" aria-labelledby="featured-video-title">
+      <div class="featured-heading">
+        <div>
+          <p class="kicker">Featured conversation</p>
+          <h2 id="featured-video-title">Watch the latest<br /><em>episode.</em></h2>
+        </div>
+        <p>Join V-Star and Lili B for an honest conversation from the Poise &amp; Balance studio.</p>
       </div>
-      <div class="glass poster-card"><img src="assets/business-card.png" alt="Poise & Balance promo card"></div>
+      <a class="video-card" href="https://youtu.be/hvdfW7LkGdc?si=-BOFdqbwnbNL7wwb" target="_blank" rel="noreferrer" aria-label="Watch the featured Poise and Balance episode on YouTube">
+        <img src="assets/featured-video.jpg" alt="Poise and Balance podcast episode with four women in conversation at New Level Studio" />
+        <span class="video-shade" aria-hidden="true"></span>
+        <span class="video-play" aria-hidden="true"><i></i></span>
+        <span class="video-label"><small>Poise &amp; Balance</small><strong>Watch on YouTube</strong></span>
+        <span class="video-arrow" aria-hidden="true">↗</span>
+      </a>
+      <a class="video-card video-card-tiktok" href="https://www.tiktok.com/t/ZTAy3VgWs/" target="_blank" rel="noreferrer" aria-label="Meet the hosts on TikTok">
+        <img src="assets/meet-hosts-tiktok.jpg" alt="Poise and Balance hosts Lili B and V-Star talking together" />
+        <span class="video-shade" aria-hidden="true"></span>
+        <span class="video-play" aria-hidden="true"><i></i></span>
+        <span class="video-label"><small>Poise &amp; Balance</small><strong>Meet the Hosts on TikTok</strong></span>
+        <span class="video-arrow" aria-hidden="true">↗</span>
+      </a>
     </section>
 
-    <section id="episodes" class="section glass center">
-      <p class="eyebrow">Episodes</p>
-      <h3>Latest conversations</h3>
-      <p class="narrow">Add YouTube, Spotify, Apple Podcasts, or Amazon Music links here when the podcast episodes are ready.</p>
-      <div class="episode-grid">
-        <article><span>01</span><h4>Real Conversations</h4><p>Mindset, growth, healing, and everyday life.</p></article>
-        <article><span>02</span><h4>Community Voices</h4><p>Guests, stories, and empowering moments.</p></article>
-        <article><span>03</span><h4>Level Up Talk</h4><p>Confidence, relationships, purpose, and balance.</p></article>
+    <section class="story" id="about" aria-labelledby="story-title">
+      <div class="section-index" aria-hidden="true">01</div>
+      <div class="story-heading">
+        <p class="kicker">The Poise &amp; Balance Podcast</p>
+        <h2 id="story-title">Two women.<br />One honest <em>space.</em></h2>
       </div>
-    </section>
-
-    <section id="support" class="section glass support">
-      <p class="eyebrow">Support the podcast</p>
-      <h3>Thank you for your support! ♡</h3>
-      <p class="narrow">Every donation helps keep the conversations going and supports future episodes, events, and creative content.</p>
-      <div class="qr-grid">
-        <article><h4>Zelle</h4><img src="assets/zelle.jpeg" alt="Zelle QR code"><p>poisedandbalance@gmail.com</p></article>
-        <article><h4>Cash App</h4><img src="assets/cashapp.jpeg" alt="Cash App QR code"><p>$PoisedandBalance</p></article>
-        <article><h4>Instagram</h4><img src="assets/instagram.jpeg" alt="Instagram QR code"><p>@poiseandbalance_</p></article>
-      </div>
-    </section>
-
-    <section id="booking" class="section split">
-      <div class="glass text-card">
-        <p class="eyebrow">Book Lili B & VStar</p>
-        <h3>Events, interviews, and empowerment spaces.</h3>
-        <p>Available for women’s empowerment events, podcast interviews, community conversations, panels, and brand collaborations.</p>
-        <a class="btn primary" href="mailto:poisedandbalance@gmail.com?subject=Booking%20Inquiry%20for%20Poise%20%26%20Balance">Send Booking Email</a>
-      </div>
-      <div class="glass feature-list">
-        <div>🎙 Podcast interviews</div><div>💖 Women’s empowerment</div><div>✨ Community events</div><div>📸 Brand collaborations</div>
+      <div class="story-copy">
+        <p class="drop-cap">V-Star and Lili B sit down for the conversations that usually happen after the room clears—direct, thoughtful, and grounded in lived experience.</p>
+        <p>Each episode explores the choices, relationships, lessons, and turning points that shape a balanced life without pretending that balance is ever effortless.</p>
+        <a class="inline-link" href="https://youtu.be/hvdfW7LkGdc?si=-BOFdqbwnbNL7wwb" target="_blank" rel="noreferrer">Watch the conversation <span>↗</span></a>
       </div>
     </section>
 
-    <section id="contact" class="section glass contact center">
-      <p class="eyebrow">Contact</p>
-      <h3>Let’s stay connected</h3>
-      <p>Email: <a href="mailto:poisedandbalance@gmail.com">poisedandbalance@gmail.com</a></p>
-      <p>Instagram: <a href="https://instagram.com/poiseandbalance_">@poiseandbalance_</a></p>
+    <section class="conversations" id="conversations" aria-labelledby="conversation-title">
+      <div class="conversation-intro">
+        <p class="kicker light">Inside the show</p>
+        <h2 id="conversation-title">Where poise meets <em>perspective.</em></h2>
+      </div>
+      <div class="topic-list">
+        <div><span>01</span><p>Life &amp; perspective</p></div>
+        <div><span>02</span><p>Love &amp; relationships</p></div>
+        <div><span>03</span><p>Healing &amp; self-worth</p></div>
+        <div><span>04</span><p>Purpose &amp; community</p></div>
+      </div>
+      <blockquote>“Real conversations make room for real growth.”</blockquote>
+    </section>
+
+    <section class="support" id="support" aria-labelledby="support-title">
+      <div class="support-copy">
+        <p class="kicker">Support independent voices</p>
+        <h2 id="support-title">Keep the conversation <em>going.</em></h2>
+        <p>Your support helps Poise &amp; Balance produce thoughtful episodes, welcome new voices, and continue building a community around honest conversation.</p>
+        <a class="instagram-link" href="https://instagram.com/poiseandbalance_" target="_blank" rel="noreferrer">
+          <span class="instagram-mark" aria-hidden="true"></span>
+          Follow @poiseandbalance_
+          <b>↗</b>
+        </a>
+      </div>
+
+      <div class="zelle-card">
+        <div class="zelle-topline"><span>Give via</span><strong>Zelle</strong></div>
+        <div class="qr-frame"><img src="assets/zelle.jpeg" alt="Zelle QR code for Poise and Balance" /></div>
+        <div class="zelle-details">
+          <span>Send support to</span>
+          <a href="mailto:poisedandbalance@gmail.com">poisedandbalance@gmail.com</a>
+        </div>
+      </div>
+    </section>
+
+    <section class="closing" aria-labelledby="closing-title">
+      <p class="kicker light">V-Star &amp; Lili B</p>
+      <h2 id="closing-title">Real conversations.<br /><em>Real balance.</em></h2>
+      <div class="closing-actions">
+        <a class="button button-gold" href="https://youtu.be/hvdfW7LkGdc?si=-BOFdqbwnbNL7wwb" target="_blank" rel="noreferrer">
+          <span class="play-icon" aria-hidden="true">▶</span>
+          Watch on YouTube
+        </a>
+        <a class="button button-outline" href="https://instagram.com/poiseandbalance_" target="_blank" rel="noreferrer">Instagram ↗</a>
+      </div>
     </section>
   </main>
 
-  <footer>© <span id="year"></span> Poise & Balance Podcast • Lili B & VStar ✨✨</footer>
+  <footer>
+    <a class="wordmark footer-mark" href="#top"><span>Poise</span><i>&amp;</i><span>Balance</span></a>
+    <p>Hosted by V-Star &amp; Lili B</p>
+    <p>© <span id="year"></span> Poise &amp; Balance</p>
+  </footer>
+
   <script src="script.js"></script>
 </body>
 </html>
