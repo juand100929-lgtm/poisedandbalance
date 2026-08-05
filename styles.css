@@ -436,6 +436,66 @@ blockquote {
   line-height: 1.65;
 }
 
+.community-support {
+  max-width: 570px;
+  margin: 0 0 34px;
+  padding: 22px 24px 23px;
+  position: relative;
+  border: 1px solid var(--line);
+  border-left-color: var(--gold);
+  background: rgba(210, 181, 114, 0.055);
+}
+
+.community-support::before {
+  content: "";
+  width: 34px;
+  height: 1px;
+  position: absolute;
+  top: -1px;
+  left: 24px;
+  background: var(--gold);
+}
+
+.community-support h3 {
+  margin: 0 0 13px;
+  color: #745f39;
+  font-size: 0.59rem;
+  font-weight: 600;
+  letter-spacing: 0.22em;
+  text-transform: uppercase;
+}
+
+.community-support p {
+  margin: 0;
+  color: #4d4840;
+  font-family: var(--serif);
+  font-size: clamp(1rem, 1.35vw, 1.18rem);
+  line-height: 1.55;
+}
+
+.community-support .community-support-action {
+  margin-top: 14px;
+  padding-top: 13px;
+  border-top: 1px solid var(--line);
+  font-family: var(--sans);
+  font-size: 0.65rem;
+  font-weight: 500;
+  letter-spacing: 0.055em;
+  line-height: 1.65;
+}
+
+.community-support-action a {
+  padding-bottom: 2px;
+  color: var(--ink);
+  border-bottom: 1px solid var(--gold);
+  font-weight: 600;
+  text-decoration: none;
+  transition: color 180ms ease;
+}
+
+.community-support-action a:hover,
+.community-support-action a:focus-visible { color: var(--gold); }
+
 .instagram-link {
   max-width: 460px;
   padding: 18px 0;
