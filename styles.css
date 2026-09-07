@@ -249,6 +249,15 @@ nav a:hover, nav a:focus-visible { color: var(--gold-light); }
 
 .video-card + .video-card { margin-top: clamp(34px, 5vw, 68px); }
 
+.video-embed {
+  width: 100%;
+  aspect-ratio: 16 / 9;
+  margin-top: clamp(34px, 5vw, 68px);
+  display: block;
+  border: 1px solid var(--gold);
+  box-shadow: 24px 24px 0 var(--paper);
+}
+
 .video-card-tiktok img { object-position: center 52%; }
 
 .video-card-interview .video-label { right: clamp(72px, 9vw, 130px); }
@@ -599,6 +608,7 @@ footer p:last-child { justify-self: end; }
   .featured-heading { grid-template-columns: 1fr; gap: 28px; }
   .featured-heading > p { max-width: 530px; }
   .video-card { box-shadow: 14px 14px 0 var(--paper); }
+  .video-embed { box-shadow: 14px 14px 0 var(--paper); }
   .story { grid-template-columns: 1fr; padding-block: 105px; }
   .section-index { display: none; }
   .story-copy { grid-column: auto; }
